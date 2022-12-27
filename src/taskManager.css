@@ -1,0 +1,63 @@
+.taskManager > header{
+  padding: 25px 100px;
+  background-color: #59C1BD;
+  color: white;
+  font-size: 28px;
+  font-family: sans-serif;
+  display: flexbox;
+}
+
+.taskManager__container {
+  width: 95%;
+  margin: 50px auto 0 auto;
+  display: flexbox;
+  justify-content: center;
+  text-align: center;
+}
+
+.taskManager__container > button {
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: hsl(210, 12%, 15%);
+  cursor: pointer;
+}
+
+.taskManager__container > button:hover{
+  background-color: hsl(210, 12%, 25%);
+}
+
+.taskManager__container > button:active{
+  background-color: hsl(210, 12%, 15%);
+}
+
+.taskManager__tasks{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.down {
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: hsl(210, 12%, 15%);
+  cursor: pointer;
+}
+
+footer{
+  padding: 25px 100px;
+  background-color: #59C1BD;
+  color: white;
+  font-size: 28px;
+  font-family: sans-serif;
+  display: flexbox;
+  margin-top: 100px;
+}
